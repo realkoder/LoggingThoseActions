@@ -8,7 +8,7 @@ public class LoggingThoseActions {
     File file = new File("src/Files/Log.txt"); //Creating file
     PrintStream printStream = null;
     LocalDateTime dateTime = LocalDateTime.now(); //used for printing to logfile
-    UI ui = new UI(); //all inputs from user
+    UI ui = new UI(); //dealing with inputs from user
     Menu menu = new Menu(); //menuPrint
     private ArrayList<String> lines = new ArrayList<>(); //saves users string inputs
     public void makeChoice() {
